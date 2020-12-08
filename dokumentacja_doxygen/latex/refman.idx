@@ -1,0 +1,168 @@
+\indexentry{binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}|hyperpage}{9}
+\indexentry{binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}!binary\_tree@{binary\_tree}|hyperpage}{9}
+\indexentry{binary\_tree@{binary\_tree}!binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}|hyperpage}{9}
+\indexentry{binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}!````~binary\_tree@{$\sim$binary\_tree}|hyperpage}{9}
+\indexentry{````~binary\_tree@{$\sim$binary\_tree}!binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}|hyperpage}{9}
+\indexentry{binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}!clear@{clear}|hyperpage}{10}
+\indexentry{clear@{clear}!binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}|hyperpage}{10}
+\indexentry{binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}!delete\_item@{delete\_item}|hyperpage}{10}
+\indexentry{delete\_item@{delete\_item}!binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}|hyperpage}{10}
+\indexentry{binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}!insert@{insert}|hyperpage}{10}
+\indexentry{insert@{insert}!binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}|hyperpage}{10}
+\indexentry{binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}!left@{left}|hyperpage}{10}
+\indexentry{left@{left}!binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}|hyperpage}{10}
+\indexentry{binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}!print@{print}|hyperpage}{11}
+\indexentry{print@{print}!binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}|hyperpage}{11}
+\indexentry{binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}!right@{right}|hyperpage}{11}
+\indexentry{right@{right}!binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}|hyperpage}{11}
+\indexentry{container$<$ T $>$@{container$<$ T $>$}|hyperpage}{12}
+\indexentry{container$<$ T $>$@{container$<$ T $>$}!container@{container}|hyperpage}{13}
+\indexentry{container@{container}!container$<$ T $>$@{container$<$ T $>$}|hyperpage}{13}
+\indexentry{container$<$ T $>$@{container$<$ T $>$}!````~container@{$\sim$container}|hyperpage}{13}
+\indexentry{````~container@{$\sim$container}!container$<$ T $>$@{container$<$ T $>$}|hyperpage}{13}
+\indexentry{container$<$ T $>$@{container$<$ T $>$}!add@{add}|hyperpage}{13}
+\indexentry{add@{add}!container$<$ T $>$@{container$<$ T $>$}|hyperpage}{13}
+\indexentry{container$<$ T $>$@{container$<$ T $>$}!add@{add}|hyperpage}{14}
+\indexentry{add@{add}!container$<$ T $>$@{container$<$ T $>$}|hyperpage}{14}
+\indexentry{container$<$ T $>$@{container$<$ T $>$}!begin@{begin}|hyperpage}{14}
+\indexentry{begin@{begin}!container$<$ T $>$@{container$<$ T $>$}|hyperpage}{14}
+\indexentry{container$<$ T $>$@{container$<$ T $>$}!clear@{clear}|hyperpage}{15}
+\indexentry{clear@{clear}!container$<$ T $>$@{container$<$ T $>$}|hyperpage}{15}
+\indexentry{container$<$ T $>$@{container$<$ T $>$}!clear\_memory@{clear\_memory}|hyperpage}{15}
+\indexentry{clear\_memory@{clear\_memory}!container$<$ T $>$@{container$<$ T $>$}|hyperpage}{15}
+\indexentry{container$<$ T $>$@{container$<$ T $>$}!contains@{contains}|hyperpage}{15}
+\indexentry{contains@{contains}!container$<$ T $>$@{container$<$ T $>$}|hyperpage}{15}
+\indexentry{container$<$ T $>$@{container$<$ T $>$}!count@{count}|hyperpage}{15}
+\indexentry{count@{count}!container$<$ T $>$@{container$<$ T $>$}|hyperpage}{15}
+\indexentry{container$<$ T $>$@{container$<$ T $>$}!delete\_item@{delete\_item}|hyperpage}{16}
+\indexentry{delete\_item@{delete\_item}!container$<$ T $>$@{container$<$ T $>$}|hyperpage}{16}
+\indexentry{container$<$ T $>$@{container$<$ T $>$}!empty@{empty}|hyperpage}{17}
+\indexentry{empty@{empty}!container$<$ T $>$@{container$<$ T $>$}|hyperpage}{17}
+\indexentry{container$<$ T $>$@{container$<$ T $>$}!end@{end}|hyperpage}{17}
+\indexentry{end@{end}!container$<$ T $>$@{container$<$ T $>$}|hyperpage}{17}
+\indexentry{container$<$ T $>$@{container$<$ T $>$}!find@{find}|hyperpage}{17}
+\indexentry{find@{find}!container$<$ T $>$@{container$<$ T $>$}|hyperpage}{17}
+\indexentry{container$<$ T $>$@{container$<$ T $>$}!get@{get}|hyperpage}{19}
+\indexentry{get@{get}!container$<$ T $>$@{container$<$ T $>$}|hyperpage}{19}
+\indexentry{container$<$ T $>$@{container$<$ T $>$}!insert@{insert}|hyperpage}{20}
+\indexentry{insert@{insert}!container$<$ T $>$@{container$<$ T $>$}|hyperpage}{20}
+\indexentry{container$<$ T $>$@{container$<$ T $>$}!operator\mbox{[}\mbox{]}@{operator[]}|hyperpage}{20}
+\indexentry{operator\mbox{[}\mbox{]}@{operator[]}!container$<$ T $>$@{container$<$ T $>$}|hyperpage}{20}
+\indexentry{container$<$ T $>$@{container$<$ T $>$}!resize@{resize}|hyperpage}{20}
+\indexentry{resize@{resize}!container$<$ T $>$@{container$<$ T $>$}|hyperpage}{20}
+\indexentry{container$<$ T $>$@{container$<$ T $>$}!size\_of@{size\_of}|hyperpage}{21}
+\indexentry{size\_of@{size\_of}!container$<$ T $>$@{container$<$ T $>$}|hyperpage}{21}
+\indexentry{container$<$ T $>$@{container$<$ T $>$}!sort@{sort}|hyperpage}{21}
+\indexentry{sort@{sort}!container$<$ T $>$@{container$<$ T $>$}|hyperpage}{21}
+\indexentry{list$<$ T $>$@{list$<$ T $>$}|hyperpage}{22}
+\indexentry{list$<$ T $>$@{list$<$ T $>$}!list@{list}|hyperpage}{23}
+\indexentry{list@{list}!list$<$ T $>$@{list$<$ T $>$}|hyperpage}{23}
+\indexentry{list$<$ T $>$@{list$<$ T $>$}!````~list@{$\sim$list}|hyperpage}{23}
+\indexentry{````~list@{$\sim$list}!list$<$ T $>$@{list$<$ T $>$}|hyperpage}{23}
+\indexentry{list$<$ T $>$@{list$<$ T $>$}!back@{back}|hyperpage}{23}
+\indexentry{back@{back}!list$<$ T $>$@{list$<$ T $>$}|hyperpage}{23}
+\indexentry{list$<$ T $>$@{list$<$ T $>$}!begin@{begin}|hyperpage}{23}
+\indexentry{begin@{begin}!list$<$ T $>$@{list$<$ T $>$}|hyperpage}{23}
+\indexentry{list$<$ T $>$@{list$<$ T $>$}!empty@{empty}|hyperpage}{24}
+\indexentry{empty@{empty}!list$<$ T $>$@{list$<$ T $>$}|hyperpage}{24}
+\indexentry{list$<$ T $>$@{list$<$ T $>$}!end@{end}|hyperpage}{24}
+\indexentry{end@{end}!list$<$ T $>$@{list$<$ T $>$}|hyperpage}{24}
+\indexentry{list$<$ T $>$@{list$<$ T $>$}!erase@{erase}|hyperpage}{24}
+\indexentry{erase@{erase}!list$<$ T $>$@{list$<$ T $>$}|hyperpage}{24}
+\indexentry{list$<$ T $>$@{list$<$ T $>$}!front@{front}|hyperpage}{25}
+\indexentry{front@{front}!list$<$ T $>$@{list$<$ T $>$}|hyperpage}{25}
+\indexentry{list$<$ T $>$@{list$<$ T $>$}!insert@{insert}|hyperpage}{25}
+\indexentry{insert@{insert}!list$<$ T $>$@{list$<$ T $>$}|hyperpage}{25}
+\indexentry{list$<$ T $>$@{list$<$ T $>$}!operator\mbox{[}\mbox{]}@{operator[]}|hyperpage}{25}
+\indexentry{operator\mbox{[}\mbox{]}@{operator[]}!list$<$ T $>$@{list$<$ T $>$}|hyperpage}{25}
+\indexentry{list$<$ T $>$@{list$<$ T $>$}!pop\_back@{pop\_back}|hyperpage}{26}
+\indexentry{pop\_back@{pop\_back}!list$<$ T $>$@{list$<$ T $>$}|hyperpage}{26}
+\indexentry{list$<$ T $>$@{list$<$ T $>$}!pop\_front@{pop\_front}|hyperpage}{26}
+\indexentry{pop\_front@{pop\_front}!list$<$ T $>$@{list$<$ T $>$}|hyperpage}{26}
+\indexentry{list$<$ T $>$@{list$<$ T $>$}!push\_back@{push\_back}|hyperpage}{26}
+\indexentry{push\_back@{push\_back}!list$<$ T $>$@{list$<$ T $>$}|hyperpage}{26}
+\indexentry{list$<$ T $>$@{list$<$ T $>$}!push\_front@{push\_front}|hyperpage}{26}
+\indexentry{push\_front@{push\_front}!list$<$ T $>$@{list$<$ T $>$}|hyperpage}{26}
+\indexentry{list$<$ T $>$@{list$<$ T $>$}!remove@{remove}|hyperpage}{27}
+\indexentry{remove@{remove}!list$<$ T $>$@{list$<$ T $>$}|hyperpage}{27}
+\indexentry{list$<$ T $>$@{list$<$ T $>$}!size\_of@{size\_of}|hyperpage}{27}
+\indexentry{size\_of@{size\_of}!list$<$ T $>$@{list$<$ T $>$}|hyperpage}{27}
+\indexentry{priority\_queue$<$ T $>$@{priority\_queue$<$ T $>$}|hyperpage}{27}
+\indexentry{priority\_queue$<$ T $>$@{priority\_queue$<$ T $>$}!pop@{pop}|hyperpage}{28}
+\indexentry{pop@{pop}!priority\_queue$<$ T $>$@{priority\_queue$<$ T $>$}|hyperpage}{28}
+\indexentry{priority\_queue$<$ T $>$@{priority\_queue$<$ T $>$}!push@{push}|hyperpage}{29}
+\indexentry{push@{push}!priority\_queue$<$ T $>$@{priority\_queue$<$ T $>$}|hyperpage}{29}
+\indexentry{priority\_queue$<$ T $>$@{priority\_queue$<$ T $>$}!setPriority@{setPriority}|hyperpage}{29}
+\indexentry{setPriority@{setPriority}!priority\_queue$<$ T $>$@{priority\_queue$<$ T $>$}|hyperpage}{29}
+\indexentry{queue$<$ T $>$@{queue$<$ T $>$}|hyperpage}{30}
+\indexentry{queue$<$ T $>$@{queue$<$ T $>$}!pop\_front@{pop\_front}|hyperpage}{31}
+\indexentry{pop\_front@{pop\_front}!queue$<$ T $>$@{queue$<$ T $>$}|hyperpage}{31}
+\indexentry{queue$<$ T $>$@{queue$<$ T $>$}!push\_back@{push\_back}|hyperpage}{31}
+\indexentry{push\_back@{push\_back}!queue$<$ T $>$@{queue$<$ T $>$}|hyperpage}{31}
+\indexentry{set$<$ T $>$@{set$<$ T $>$}|hyperpage}{32}
+\indexentry{set$<$ T $>$@{set$<$ T $>$}!insert@{insert}|hyperpage}{33}
+\indexentry{insert@{insert}!set$<$ T $>$@{set$<$ T $>$}|hyperpage}{33}
+\indexentry{set$<$ T $>$@{set$<$ T $>$}!lower\_bound@{lower\_bound}|hyperpage}{33}
+\indexentry{lower\_bound@{lower\_bound}!set$<$ T $>$@{set$<$ T $>$}|hyperpage}{33}
+\indexentry{set$<$ T $>$@{set$<$ T $>$}!upper\_bound@{upper\_bound}|hyperpage}{34}
+\indexentry{upper\_bound@{upper\_bound}!set$<$ T $>$@{set$<$ T $>$}|hyperpage}{34}
+\indexentry{stack$<$ T $>$@{stack$<$ T $>$}|hyperpage}{35}
+\indexentry{stack$<$ T $>$@{stack$<$ T $>$}!insert@{insert}|hyperpage}{35}
+\indexentry{insert@{insert}!stack$<$ T $>$@{stack$<$ T $>$}|hyperpage}{35}
+\indexentry{stack$<$ T $>$@{stack$<$ T $>$}!pop@{pop}|hyperpage}{36}
+\indexentry{pop@{pop}!stack$<$ T $>$@{stack$<$ T $>$}|hyperpage}{36}
+\indexentry{vector$<$ T $>$@{vector$<$ T $>$}|hyperpage}{37}
+\indexentry{vector$<$ T $>$@{vector$<$ T $>$}!pop\_back@{pop\_back}|hyperpage}{38}
+\indexentry{pop\_back@{pop\_back}!vector$<$ T $>$@{vector$<$ T $>$}|hyperpage}{38}
+\indexentry{vector$<$ T $>$@{vector$<$ T $>$}!pop\_front@{pop\_front}|hyperpage}{38}
+\indexentry{pop\_front@{pop\_front}!vector$<$ T $>$@{vector$<$ T $>$}|hyperpage}{38}
+\indexentry{vector$<$ T $>$@{vector$<$ T $>$}!push\_back@{push\_back}|hyperpage}{39}
+\indexentry{push\_back@{push\_back}!vector$<$ T $>$@{vector$<$ T $>$}|hyperpage}{39}
+\indexentry{vector$<$ T $>$@{vector$<$ T $>$}!push\_front@{push\_front}|hyperpage}{39}
+\indexentry{push\_front@{push\_front}!vector$<$ T $>$@{vector$<$ T $>$}|hyperpage}{39}
+\indexentry{vector$<$ T $>$@{vector$<$ T $>$}!sort@{sort}|hyperpage}{41}
+\indexentry{sort@{sort}!vector$<$ T $>$@{vector$<$ T $>$}|hyperpage}{41}
+\indexentry{vector$<$ T $>$@{vector$<$ T $>$}!swap@{swap}|hyperpage}{41}
+\indexentry{swap@{swap}!vector$<$ T $>$@{vector$<$ T $>$}|hyperpage}{41}
+\indexentry{include/binary\_tree.h@{include/binary\_tree.h}|hyperpage}{45}
+\indexentry{include/container.h@{include/container.h}|hyperpage}{46}
+\indexentry{container.h@{container.h}!RESIZE\_STEP@{RESIZE\_STEP}|hyperpage}{47}
+\indexentry{RESIZE\_STEP@{RESIZE\_STEP}!container.h@{container.h}|hyperpage}{47}
+\indexentry{container.h@{container.h}!START\_SIZE@{START\_SIZE}|hyperpage}{47}
+\indexentry{START\_SIZE@{START\_SIZE}!container.h@{container.h}|hyperpage}{47}
+\indexentry{include/containers.h@{include/containers.h}|hyperpage}{48}
+\indexentry{include/list.h@{include/list.h}|hyperpage}{49}
+\indexentry{include/priority\_queue.h@{include/priority\_queue.h}|hyperpage}{50}
+\indexentry{priority\_queue.h@{priority\_queue.h}!priorityType@{priorityType}|hyperpage}{51}
+\indexentry{priorityType@{priorityType}!priority\_queue.h@{priority\_queue.h}|hyperpage}{51}
+\indexentry{priority\_queue.h@{priority\_queue.h}!priorityType@{priorityType}|hyperpage}{51}
+\indexentry{priorityType@{priorityType}!priority\_queue.h@{priority\_queue.h}|hyperpage}{51}
+\indexentry{MIN@{MIN}!priority\_queue.h@{priority\_queue.h}|hyperpage}{52}
+\indexentry{priority\_queue.h@{priority\_queue.h}!MIN@{MIN}|hyperpage}{52}
+\indexentry{MAX@{MAX}!priority\_queue.h@{priority\_queue.h}|hyperpage}{52}
+\indexentry{priority\_queue.h@{priority\_queue.h}!MAX@{MAX}|hyperpage}{52}
+\indexentry{include/queue.h@{include/queue.h}|hyperpage}{52}
+\indexentry{include/set.h@{include/set.h}|hyperpage}{53}
+\indexentry{include/stack.h@{include/stack.h}|hyperpage}{54}
+\indexentry{include/vector.h@{include/vector.h}|hyperpage}{56}
+\indexentry{README.md@{README.md}|hyperpage}{57}
+\indexentry{src/main.cpp@{src/main.cpp}|hyperpage}{57}
+\indexentry{main.cpp@{main.cpp}!main@{main}|hyperpage}{57}
+\indexentry{main@{main}!main.cpp@{main.cpp}|hyperpage}{57}
+\indexentry{valgrind-\/out.txt@{valgrind-\/out.txt}|hyperpage}{58}
+\indexentry{valgrind-\/out.txt@{valgrind-\/out.txt}!al@{al}|hyperpage}{58}
+\indexentry{al@{al}!valgrind-\/out.txt@{valgrind-\/out.txt}|hyperpage}{58}
+\indexentry{valgrind-\/out.txt@{valgrind-\/out.txt}!d@{d}|hyperpage}{58}
+\indexentry{d@{d}!valgrind-\/out.txt@{valgrind-\/out.txt}|hyperpage}{58}
+\indexentry{valgrind-\/out.txt@{valgrind-\/out.txt}!detector@{detector}|hyperpage}{58}
+\indexentry{detector@{detector}!valgrind-\/out.txt@{valgrind-\/out.txt}|hyperpage}{58}
+\indexentry{valgrind-\/out.txt@{valgrind-\/out.txt}!directory@{directory}|hyperpage}{58}
+\indexentry{directory@{directory}!valgrind-\/out.txt@{valgrind-\/out.txt}|hyperpage}{58}
+\indexentry{valgrind-\/out.txt@{valgrind-\/out.txt}!doing@{doing}|hyperpage}{58}
+\indexentry{doing@{doing}!valgrind-\/out.txt@{valgrind-\/out.txt}|hyperpage}{58}
+\indexentry{valgrind-\/out.txt@{valgrind-\/out.txt}!info@{info}|hyperpage}{59}
+\indexentry{info@{info}!valgrind-\/out.txt@{valgrind-\/out.txt}|hyperpage}{59}
+\indexentry{valgrind-\/out.txt@{valgrind-\/out.txt}!LittleEndian@{LittleEndian}|hyperpage}{59}
+\indexentry{LittleEndian@{LittleEndian}!valgrind-\/out.txt@{valgrind-\/out.txt}|hyperpage}{59}
+\indexentry{valgrind-\/out.txt@{valgrind-\/out.txt}!sizes@{sizes}|hyperpage}{59}
+\indexentry{sizes@{sizes}!valgrind-\/out.txt@{valgrind-\/out.txt}|hyperpage}{59}

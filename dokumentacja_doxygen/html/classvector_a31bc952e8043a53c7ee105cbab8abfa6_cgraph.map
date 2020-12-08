@@ -1,0 +1,5 @@
+<map id="vector::pop_back" name="vector::pop_back">
+<area shape="rect" id="node1" title="funkcja usuwająca element na końcu i zwracająca go" alt="" coords="5,31,139,57"/>
+<area shape="rect" id="node2" href="$classcontainer.html#a4ee6490c3702c182be461a9990890530" title="funkcja usuwająca element na podanym indeksie" alt="" coords="187,5,356,32"/>
+<area shape="rect" id="node3" href="$classcontainer.html#ab3652141432751472105f45b95e7cf97" title="funkcja pobierająca element z podanego indeksu" alt="" coords="215,56,327,83"/>
+</map>

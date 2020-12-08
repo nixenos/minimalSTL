@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.18"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kontenery STL: Plik źródłowy include/priority_queue.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kontenery STL
+   &#160;<span id="projectnumber">0.1</span>
+   </div>
+   <div id="projectbrief">Własna implementacja kontenerów z biblioteki STL</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.18 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">priority_queue.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="priority__queue_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="container_8h.html">container.h</a>&quot;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;algorithm&gt;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="priority__queue_8h.html#aaf98d733601b805572b776f3af665fc2">   15</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> <a class="code" href="priority__queue_8h.html#ac80c4732101cce467e5090ffff9b7e24">priorityType</a> {<a class="code" href="priority__queue_8h.html#ac80c4732101cce467e5090ffff9b7e24a957e8250f68e7b5677b22397c2c1b51e">MIN</a>, <a class="code" href="priority__queue_8h.html#ac80c4732101cce467e5090ffff9b7e24ad7e097bda6d981de2520f49fe74c25b7">MAX</a>} <a class="code" href="priority__queue_8h.html#ac80c4732101cce467e5090ffff9b7e24">priorityType</a>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classpriority__queue.html">   18</a></span>&#160;<span class="keyword">class </span><a class="code" href="classpriority__queue.html">priority_queue</a> : <span class="keyword">public</span> <a class="code" href="classcontainer.html">container</a>&lt;T&gt;{</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="priority__queue_8h.html#ac80c4732101cce467e5090ffff9b7e24">priorityType</a> priority;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="classpriority__queue.html#a3d6e87db6bb6540211a236092ff6a066">setPriority</a>(<a class="code" href="priority__queue_8h.html#ac80c4732101cce467e5090ffff9b7e24">priorityType</a> choice);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classpriority__queue.html#a745bdf3f36fc582610321c62d1b11491">push</a>(<span class="keyword">const</span> T &amp;item);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        T <a class="code" href="classpriority__queue.html#a8fd4e870275678e010a0a479a2d47e32">pop</a>();</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;};</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="classpriority__queue.html#a3d6e87db6bb6540211a236092ff6a066">   45</a></span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="classpriority__queue.html#a3d6e87db6bb6540211a236092ff6a066">priority_queue&lt;T&gt;::setPriority</a>(<a class="code" href="priority__queue_8h.html#ac80c4732101cce467e5090ffff9b7e24">priorityType</a> choice){</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    this-&gt;priority = choice;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;}</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="classpriority__queue.html#a745bdf3f36fc582610321c62d1b11491">   50</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classpriority__queue.html#a745bdf3f36fc582610321c62d1b11491">priority_queue&lt;T&gt;::push</a>(<span class="keyword">const</span> T &amp;item){</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="comment">//wrapper dla funkcji z container&lt;T&gt;</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <a class="code" href="classcontainer.html#adfaa307be382d3847a0ee3669362b9fb">container&lt;T&gt;::add</a>(item);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;}</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="classpriority__queue.html#a8fd4e870275678e010a0a479a2d47e32">   56</a></span>&#160;T <a class="code" href="classpriority__queue.html#a8fd4e870275678e010a0a479a2d47e32">priority_queue&lt;T&gt;::pop</a>(){</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    T temp = this-&gt;<a class="code" href="classcontainer.html#ab3652141432751472105f45b95e7cf97">container&lt;T&gt;::get</a>(0);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">size_t</span> index=0;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">switch</span>(this-&gt;priority){</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="priority__queue_8h.html#ac80c4732101cce467e5090ffff9b7e24ad7e097bda6d981de2520f49fe74c25b7">MAX</a>:</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="comment">//przeszukuje kontener, szuka największego elementu</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0; i&lt;this-&gt;<a class="code" href="classcontainer.html#ada5d804cfc852ace0be19010a0066ae9">container&lt;T&gt;::size_of</a>(); i++){</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            <span class="keywordflow">if</span>(this-&gt;<a class="code" href="classcontainer.html">container&lt;T&gt;::get</a>(i) &gt; temp){</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                temp = this-&gt;<a class="code" href="classcontainer.html#ab3652141432751472105f45b95e7cf97">container&lt;T&gt;::get</a>(i);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                index = i;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            }</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        }</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="priority__queue_8h.html#ac80c4732101cce467e5090ffff9b7e24a957e8250f68e7b5677b22397c2c1b51e">MIN</a>:</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="comment">//przeszukuje kontener, szuka najmniejszego elementu</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0; i&lt;this-&gt;<a class="code" href="classcontainer.html#ada5d804cfc852ace0be19010a0066ae9">container&lt;T&gt;::size_of</a>(); i++){</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            <span class="keywordflow">if</span>(this-&gt;<a class="code" href="classcontainer.html">container&lt;T&gt;::get</a>(i) &lt; temp){</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                temp = this-&gt;<a class="code" href="classcontainer.html#ab3652141432751472105f45b95e7cf97">container&lt;T&gt;::get</a>(i);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                index = i;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            }</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        }</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="comment">//usuwa znaleziony element i zwraca go</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    this-&gt;<a class="code" href="classcontainer.html#a4ee6490c3702c182be461a9990890530">container&lt;T&gt;::delete_item</a>(index);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordflow">return</span> temp;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;}</div>
+</div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="apriority__queue_8h_html_ac80c4732101cce467e5090ffff9b7e24"><div class="ttname"><a href="priority__queue_8h.html#ac80c4732101cce467e5090ffff9b7e24">priorityType</a></div><div class="ttdeci">priorityType</div><div class="ttdef"><b>Definition:</b> priority_queue.h:15</div></div>
+<div class="ttc" id="aclasspriority__queue_html_a745bdf3f36fc582610321c62d1b11491"><div class="ttname"><a href="classpriority__queue.html#a745bdf3f36fc582610321c62d1b11491">priority_queue::push</a></div><div class="ttdeci">void push(const T &amp;item)</div><div class="ttdoc">wkłada element do kolejki</div><div class="ttdef"><b>Definition:</b> priority_queue.h:50</div></div>
+<div class="ttc" id="aclasscontainer_html"><div class="ttname"><a href="classcontainer.html">container</a></div><div class="ttdoc">bazowa klasa zarządzająca pamięcią, implementująca podstawowe funkcjonalności itd.</div><div class="ttdef"><b>Definition:</b> container.h:26</div></div>
+<div class="ttc" id="aclasscontainer_html_a4ee6490c3702c182be461a9990890530"><div class="ttname"><a href="classcontainer.html#a4ee6490c3702c182be461a9990890530">container::delete_item</a></div><div class="ttdeci">void delete_item(const size_t &amp;index) noexcept</div><div class="ttdoc">funkcja usuwająca element na podanym indeksie</div><div class="ttdef"><b>Definition:</b> container.h:223</div></div>
+<div class="ttc" id="acontainer_8h_html"><div class="ttname"><a href="container_8h.html">container.h</a></div></div>
+<div class="ttc" id="aclasscontainer_html_ab3652141432751472105f45b95e7cf97"><div class="ttname"><a href="classcontainer.html#ab3652141432751472105f45b95e7cf97">container::get</a></div><div class="ttdeci">T &amp; get(const size_t index)</div><div class="ttdoc">funkcja pobierająca element z podanego indeksu</div><div class="ttdef"><b>Definition:</b> container.h:310</div></div>
+<div class="ttc" id="apriority__queue_8h_html_ac80c4732101cce467e5090ffff9b7e24ad7e097bda6d981de2520f49fe74c25b7"><div class="ttname"><a href="priority__queue_8h.html#ac80c4732101cce467e5090ffff9b7e24ad7e097bda6d981de2520f49fe74c25b7">MAX</a></div><div class="ttdeci">@ MAX</div><div class="ttdef"><b>Definition:</b> priority_queue.h:15</div></div>
+<div class="ttc" id="aclasscontainer_html_adfaa307be382d3847a0ee3669362b9fb"><div class="ttname"><a href="classcontainer.html#adfaa307be382d3847a0ee3669362b9fb">container::add</a></div><div class="ttdeci">void add(const T item)</div><div class="ttdoc">funkcja dodająca element na koniec kontenera</div><div class="ttdef"><b>Definition:</b> container.h:283</div></div>
+<div class="ttc" id="aclasscontainer_html_ada5d804cfc852ace0be19010a0066ae9"><div class="ttname"><a href="classcontainer.html#ada5d804cfc852ace0be19010a0066ae9">container::size_of</a></div><div class="ttdeci">size_t size_of() const noexcept</div><div class="ttdoc">funkcja zwracająca wielkość kontenera</div><div class="ttdef"><b>Definition:</b> container.h:194</div></div>
+<div class="ttc" id="apriority__queue_8h_html_ac80c4732101cce467e5090ffff9b7e24a957e8250f68e7b5677b22397c2c1b51e"><div class="ttname"><a href="priority__queue_8h.html#ac80c4732101cce467e5090ffff9b7e24a957e8250f68e7b5677b22397c2c1b51e">MIN</a></div><div class="ttdeci">@ MIN</div><div class="ttdef"><b>Definition:</b> priority_queue.h:15</div></div>
+<div class="ttc" id="aclasspriority__queue_html_a3d6e87db6bb6540211a236092ff6a066"><div class="ttname"><a href="classpriority__queue.html#a3d6e87db6bb6540211a236092ff6a066">priority_queue::setPriority</a></div><div class="ttdeci">void setPriority(priorityType choice)</div><div class="ttdoc">ustawia priorytet kolejki</div><div class="ttdef"><b>Definition:</b> priority_queue.h:45</div></div>
+<div class="ttc" id="aclasspriority__queue_html_a8fd4e870275678e010a0a479a2d47e32"><div class="ttname"><a href="classpriority__queue.html#a8fd4e870275678e010a0a479a2d47e32">priority_queue::pop</a></div><div class="ttdeci">T pop()</div><div class="ttdoc">ściąga element z kolejki i zwraca ten element.</div><div class="ttdef"><b>Definition:</b> priority_queue.h:56</div></div>
+<div class="ttc" id="aclasspriority__queue_html"><div class="ttname"><a href="classpriority__queue.html">priority_queue</a></div><div class="ttdef"><b>Definition:</b> priority_queue.h:18</div></div>
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.18
+</small></address>
+</body>
+</html>

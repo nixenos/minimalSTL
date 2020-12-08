@@ -1,0 +1,283 @@
+\hypertarget{classlist}{}\doxysection{Dokumentacja szablonu klasy list$<$ T $>$}
+\label{classlist}\index{list$<$ T $>$@{list$<$ T $>$}}
+
+
+{\ttfamily \#include $<$list.\+h$>$}
+
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classlist_afe3efe55d3ee5dd698349834f7eac26b}{list}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new list object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classlist_adf352cf28624c0811f4f9b160062a88c}{$\sim$list}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the list object. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classlist_a25d43fd412665f9a133368451e8afb93}{size\+\_\+of}} () const
+\begin{DoxyCompactList}\small\item\em zwraca wielkość listy \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classlist_ac98914e2f6f0d664098384845c2cf269}{empty}} () const
+\begin{DoxyCompactList}\small\item\em czy lista jest pusta \end{DoxyCompactList}\item 
+T \& \mbox{\hyperlink{classlist_adc383582c017d9331b9e88323c0334a7}{front}} ()
+\begin{DoxyCompactList}\small\item\em zwraca pierwszy element \end{DoxyCompactList}\item 
+T \& \mbox{\hyperlink{classlist_a7d42fa58cee232cae10e1a8a7d207e67}{back}} ()
+\begin{DoxyCompactList}\small\item\em zwraca ostatni element \end{DoxyCompactList}\item 
+T $\ast$ \mbox{\hyperlink{classlist_a20e38c0236b76f6b985ffc5a0924b167}{begin}} ()
+\begin{DoxyCompactList}\small\item\em zwraca wskaźnik na pierwszy element \end{DoxyCompactList}\item 
+T $\ast$ \mbox{\hyperlink{classlist_af06dc82e0dbb89f88ac1c7bd063d1317}{end}} ()
+\begin{DoxyCompactList}\small\item\em zwraca wskaźnik na ostatni element \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classlist_a32db8b9307517c1a08a1607e22324bb9}{push\+\_\+back}} (const T \&item)
+\begin{DoxyCompactList}\small\item\em dodaje element na koniec \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classlist_a9e4c7f76afe60c8dffe184c6190efc34}{push\+\_\+front}} (const T \&item)
+\begin{DoxyCompactList}\small\item\em dodaje element na początek \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classlist_a37610757e9d7dee5c53df0a50ed985e7}{insert}} (const T \&item, const size\+\_\+t index)
+\begin{DoxyCompactList}\small\item\em wstawia element na konkretny indeks \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classlist_a374eb9ad114b48bf6d1b9b55804088d1}{pop\+\_\+back}} ()
+\begin{DoxyCompactList}\small\item\em usuwa element z końca \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classlist_ae9c74ac5775defd29b66beb9aa956a14}{pop\+\_\+front}} ()
+\begin{DoxyCompactList}\small\item\em usuwa element z początku \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classlist_a7aa8730a116ab1ade9eed28911a64fa6}{erase}} (size\+\_\+t index)
+\begin{DoxyCompactList}\small\item\em usuwa element z podanego indeksu \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classlist_a06debe76cdcb9cea5265f233537aa010}{remove}} (const T \&item)
+\begin{DoxyCompactList}\small\item\em usuwa wszytskie wystapienia elementu \end{DoxyCompactList}\item 
+T \& \mbox{\hyperlink{classlist_a2f1569a7fb258e95713a89df38572c28}{operator\mbox{[}$\,$\mbox{]}}} (const size\+\_\+t index)
+\begin{DoxyCompactList}\small\item\em operator wyłuskania \mbox{[}\mbox{]} \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\Hypertarget{classlist_afe3efe55d3ee5dd698349834f7eac26b}\label{classlist_afe3efe55d3ee5dd698349834f7eac26b}} 
+\index{list$<$ T $>$@{list$<$ T $>$}!list@{list}}
+\index{list@{list}!list$<$ T $>$@{list$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{list()}{list()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{classlist}{list}}$<$ T $>$\+::\mbox{\hyperlink{classlist}{list}}}
+
+
+
+Construct a new list object. 
+
+\mbox{\Hypertarget{classlist_adf352cf28624c0811f4f9b160062a88c}\label{classlist_adf352cf28624c0811f4f9b160062a88c}} 
+\index{list$<$ T $>$@{list$<$ T $>$}!````~list@{$\sim$list}}
+\index{````~list@{$\sim$list}!list$<$ T $>$@{list$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{$\sim$list()}{~list()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{classlist}{list}}$<$ T $>$\+::$\sim$\mbox{\hyperlink{classlist}{list}}}
+
+
+
+Destroy the list object. 
+
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{classlist_a7d42fa58cee232cae10e1a8a7d207e67}\label{classlist_a7d42fa58cee232cae10e1a8a7d207e67}} 
+\index{list$<$ T $>$@{list$<$ T $>$}!back@{back}}
+\index{back@{back}!list$<$ T $>$@{list$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{back()}{back()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+T \& \mbox{\hyperlink{classlist}{list}}$<$ T $>$\+::back\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+zwraca ostatni element 
+
+\begin{DoxyReturn}{Zwraca}
+T\& ostatni element 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classlist_a20e38c0236b76f6b985ffc5a0924b167}\label{classlist_a20e38c0236b76f6b985ffc5a0924b167}} 
+\index{list$<$ T $>$@{list$<$ T $>$}!begin@{begin}}
+\index{begin@{begin}!list$<$ T $>$@{list$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{begin()}{begin()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+T $\ast$ \mbox{\hyperlink{classlist}{list}}$<$ T $>$\+::begin\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+zwraca wskaźnik na pierwszy element 
+
+\begin{DoxyReturn}{Zwraca}
+T$\ast$ wskaźnik na pierwszy element 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classlist_ac98914e2f6f0d664098384845c2cf269}\label{classlist_ac98914e2f6f0d664098384845c2cf269}} 
+\index{list$<$ T $>$@{list$<$ T $>$}!empty@{empty}}
+\index{empty@{empty}!list$<$ T $>$@{list$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{empty()}{empty()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+bool \mbox{\hyperlink{classlist}{list}}$<$ T $>$\+::empty\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+czy lista jest pusta 
+
+\begin{DoxyReturn}{Zwraca}
+true tak 
+
+false nie 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classlist_af06dc82e0dbb89f88ac1c7bd063d1317}\label{classlist_af06dc82e0dbb89f88ac1c7bd063d1317}} 
+\index{list$<$ T $>$@{list$<$ T $>$}!end@{end}}
+\index{end@{end}!list$<$ T $>$@{list$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{end()}{end()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+T $\ast$ \mbox{\hyperlink{classlist}{list}}$<$ T $>$\+::end\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+zwraca wskaźnik na ostatni element 
+
+\begin{DoxyReturn}{Zwraca}
+T$\ast$ wskaźnik na ostatni element 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classlist_a7aa8730a116ab1ade9eed28911a64fa6}\label{classlist_a7aa8730a116ab1ade9eed28911a64fa6}} 
+\index{list$<$ T $>$@{list$<$ T $>$}!erase@{erase}}
+\index{erase@{erase}!list$<$ T $>$@{list$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{erase()}{erase()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{classlist}{list}}$<$ T $>$\+::erase (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{index }\end{DoxyParamCaption})}
+
+
+
+usuwa element z podanego indeksu 
+
+
+\begin{DoxyParams}{Parametry}
+{\em index} & indeks \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classlist_adc383582c017d9331b9e88323c0334a7}\label{classlist_adc383582c017d9331b9e88323c0334a7}} 
+\index{list$<$ T $>$@{list$<$ T $>$}!front@{front}}
+\index{front@{front}!list$<$ T $>$@{list$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{front()}{front()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+T \& \mbox{\hyperlink{classlist}{list}}$<$ T $>$\+::front\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+zwraca pierwszy element 
+
+\begin{DoxyReturn}{Zwraca}
+T\& pierwszy element 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classlist_a37610757e9d7dee5c53df0a50ed985e7}\label{classlist_a37610757e9d7dee5c53df0a50ed985e7}} 
+\index{list$<$ T $>$@{list$<$ T $>$}!insert@{insert}}
+\index{insert@{insert}!list$<$ T $>$@{list$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{insert()}{insert()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{classlist}{list}}$<$ T $>$\+::insert (\begin{DoxyParamCaption}\item[{const T \&}]{item,  }\item[{const size\+\_\+t}]{index }\end{DoxyParamCaption})}
+
+
+
+wstawia element na konkretny indeks 
+
+
+\begin{DoxyParams}{Parametry}
+{\em item} & element do wstawienia \\
+\hline
+{\em index} & indeks na którym ma być wstawiony \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classlist_a2f1569a7fb258e95713a89df38572c28}\label{classlist_a2f1569a7fb258e95713a89df38572c28}} 
+\index{list$<$ T $>$@{list$<$ T $>$}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!list$<$ T $>$@{list$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator[]()}{operator[]()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+T \& \mbox{\hyperlink{classlist}{list}}$<$ T $>$\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{const size\+\_\+t}]{index }\end{DoxyParamCaption})}
+
+
+
+operator wyłuskania \mbox{[}\mbox{]} 
+
+
+\begin{DoxyParams}{Parametry}
+{\em index} & indeks do pobrania \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+T\& referencja do elementu 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classlist_a374eb9ad114b48bf6d1b9b55804088d1}\label{classlist_a374eb9ad114b48bf6d1b9b55804088d1}} 
+\index{list$<$ T $>$@{list$<$ T $>$}!pop\_back@{pop\_back}}
+\index{pop\_back@{pop\_back}!list$<$ T $>$@{list$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{pop\_back()}{pop\_back()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{classlist}{list}}$<$ T $>$\+::pop\+\_\+back}
+
+
+
+usuwa element z końca 
+
+\mbox{\Hypertarget{classlist_ae9c74ac5775defd29b66beb9aa956a14}\label{classlist_ae9c74ac5775defd29b66beb9aa956a14}} 
+\index{list$<$ T $>$@{list$<$ T $>$}!pop\_front@{pop\_front}}
+\index{pop\_front@{pop\_front}!list$<$ T $>$@{list$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{pop\_front()}{pop\_front()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{classlist}{list}}$<$ T $>$\+::pop\+\_\+front}
+
+
+
+usuwa element z początku 
+
+\mbox{\Hypertarget{classlist_a32db8b9307517c1a08a1607e22324bb9}\label{classlist_a32db8b9307517c1a08a1607e22324bb9}} 
+\index{list$<$ T $>$@{list$<$ T $>$}!push\_back@{push\_back}}
+\index{push\_back@{push\_back}!list$<$ T $>$@{list$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{push\_back()}{push\_back()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{classlist}{list}}$<$ T $>$\+::push\+\_\+back (\begin{DoxyParamCaption}\item[{const T \&}]{item }\end{DoxyParamCaption})}
+
+
+
+dodaje element na koniec 
+
+
+\begin{DoxyParams}{Parametry}
+{\em item} & element do dodania \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classlist_a9e4c7f76afe60c8dffe184c6190efc34}\label{classlist_a9e4c7f76afe60c8dffe184c6190efc34}} 
+\index{list$<$ T $>$@{list$<$ T $>$}!push\_front@{push\_front}}
+\index{push\_front@{push\_front}!list$<$ T $>$@{list$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{push\_front()}{push\_front()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{classlist}{list}}$<$ T $>$\+::push\+\_\+front (\begin{DoxyParamCaption}\item[{const T \&}]{item }\end{DoxyParamCaption})}
+
+
+
+dodaje element na początek 
+
+
+\begin{DoxyParams}{Parametry}
+{\em item} & element do dodania \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classlist_a06debe76cdcb9cea5265f233537aa010}\label{classlist_a06debe76cdcb9cea5265f233537aa010}} 
+\index{list$<$ T $>$@{list$<$ T $>$}!remove@{remove}}
+\index{remove@{remove}!list$<$ T $>$@{list$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{remove()}{remove()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{classlist}{list}}$<$ T $>$\+::remove (\begin{DoxyParamCaption}\item[{const T \&}]{item }\end{DoxyParamCaption})}
+
+
+
+usuwa wszytskie wystapienia elementu 
+
+
+\begin{DoxyParams}{Parametry}
+{\em item} & element do usunięcia \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classlist_a25d43fd412665f9a133368451e8afb93}\label{classlist_a25d43fd412665f9a133368451e8afb93}} 
+\index{list$<$ T $>$@{list$<$ T $>$}!size\_of@{size\_of}}
+\index{size\_of@{size\_of}!list$<$ T $>$@{list$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{size\_of()}{size\_of()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+int \mbox{\hyperlink{classlist}{list}}$<$ T $>$\+::size\+\_\+of\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+zwraca wielkość listy 
+
+\begin{DoxyReturn}{Zwraca}
+int wielkość listy 
+\end{DoxyReturn}
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{list_8h}{list.\+h}}\end{DoxyCompactItemize}

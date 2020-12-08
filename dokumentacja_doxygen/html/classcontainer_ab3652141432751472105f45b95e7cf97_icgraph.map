@@ -1,0 +1,9 @@
+<map id="container::get" name="container::get">
+<area shape="rect" id="node1" title="funkcja pobierająca element z podanego indeksu" alt="" coords="201,132,313,159"/>
+<area shape="rect" id="node2" href="$classstack.html#a94052aea6bcba50cd07e92e7759ed89d" title="funkcja zwracająca element z góry stosu" alt="" coords="35,5,124,32"/>
+<area shape="rect" id="node3" href="$classpriority__queue.html#a8fd4e870275678e010a0a479a2d47e32" title="ściąga element z kolejki i zwraca ten element." alt="" coords="5,56,153,83"/>
+<area shape="rect" id="node4" href="$classvector.html#a31bc952e8043a53c7ee105cbab8abfa6" title="funkcja usuwająca element na końcu i zwracająca go" alt="" coords="13,107,146,133"/>
+<area shape="rect" id="node5" href="$classqueue.html#a123c22f4ace0cd712c297b0ee18de270" title="funkcja usuwająca element na początku i zwracająca go" alt="" coords="13,157,145,184"/>
+<area shape="rect" id="node6" href="$classvector.html#a6b97a407b916436e79c8ae7b04bfbc4c" title="funkcja usuwająca element na początku i zwracająca go" alt="" coords="13,208,146,235"/>
+<area shape="rect" id="node7" href="$classvector.html#afa5eaf165fe224cf882c2890c1a54611" title="funkcja zamieniająca miejscami dwa elementy" alt="" coords="27,259,132,285"/>
+</map>

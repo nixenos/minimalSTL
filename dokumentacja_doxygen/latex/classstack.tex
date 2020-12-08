@@ -1,0 +1,88 @@
+\hypertarget{classstack}{}\doxysection{Dokumentacja szablonu klasy stack$<$ T $>$}
+\label{classstack}\index{stack$<$ T $>$@{stack$<$ T $>$}}
+
+
+{\ttfamily \#include $<$stack.\+h$>$}
+
+
+
+Diagram dziedziczenia dla stack$<$ T $>$
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=171pt]{classstack__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagram współpracy dla stack$<$ T $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=171pt]{classstack__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classstack_a3b8d18e5c83429681a676d286dd0ab98}{insert}} (const T \&item)
+\begin{DoxyCompactList}\small\item\em funkcja wstawiąjąca element na stos \end{DoxyCompactList}\item 
+T \mbox{\hyperlink{classstack_a94052aea6bcba50cd07e92e7759ed89d}{pop}} ()
+\begin{DoxyCompactList}\small\item\em funkcja zwracająca element z góry stosu \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Dodatkowe Dziedziczone Składowe}
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{classstack_a3b8d18e5c83429681a676d286dd0ab98}\label{classstack_a3b8d18e5c83429681a676d286dd0ab98}} 
+\index{stack$<$ T $>$@{stack$<$ T $>$}!insert@{insert}}
+\index{insert@{insert}!stack$<$ T $>$@{stack$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{insert()}{insert()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{classstack}{stack}}$<$ T $>$\+::insert (\begin{DoxyParamCaption}\item[{const T \&}]{item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+funkcja wstawiąjąca element na stos 
+
+
+\begin{DoxyParams}{Parametry}
+{\em item} & element do wstawienia \\
+\hline
+\end{DoxyParams}
+Oto graf wywołań dla tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=279pt]{classstack_a3b8d18e5c83429681a676d286dd0ab98_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classstack_a94052aea6bcba50cd07e92e7759ed89d}\label{classstack_a94052aea6bcba50cd07e92e7759ed89d}} 
+\index{stack$<$ T $>$@{stack$<$ T $>$}!pop@{pop}}
+\index{pop@{pop}!stack$<$ T $>$@{stack$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{pop()}{pop()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+T \mbox{\hyperlink{classstack}{stack}}$<$ T $>$\+::pop\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+funkcja zwracająca element z góry stosu 
+
+\begin{DoxyReturn}{Zwraca}
+T pierwszy element na stosie 
+\end{DoxyReturn}
+Oto graf wywołań dla tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{classstack_a94052aea6bcba50cd07e92e7759ed89d_cgraph}
+\end{center}
+\end{figure}
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{stack_8h}{stack.\+h}}\end{DoxyCompactItemize}

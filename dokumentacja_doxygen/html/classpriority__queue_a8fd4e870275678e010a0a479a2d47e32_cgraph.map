@@ -1,0 +1,6 @@
+<map id="priority_queue::pop" name="priority_queue::pop">
+<area shape="rect" id="node1" title="ściąga element z kolejki i zwraca ten element." alt="" coords="5,56,153,83"/>
+<area shape="rect" id="node2" href="$classcontainer.html#a4ee6490c3702c182be461a9990890530" title="funkcja usuwająca element na podanym indeksie" alt="" coords="201,5,371,32"/>
+<area shape="rect" id="node3" href="$classcontainer.html#ab3652141432751472105f45b95e7cf97" title="funkcja pobierająca element z podanego indeksu" alt="" coords="230,56,342,83"/>
+<area shape="rect" id="node4" href="$classcontainer.html#ada5d804cfc852ace0be19010a0066ae9" title="funkcja zwracająca wielkość kontenera" alt="" coords="217,107,355,133"/>
+</map>

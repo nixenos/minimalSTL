@@ -1,0 +1,150 @@
+\hypertarget{classbinary__tree}{}\doxysection{Dokumentacja szablonu klasy binary\+\_\+tree$<$ T $>$}
+\label{classbinary__tree}\index{binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}}
+
+
+{\ttfamily \#include $<$binary\+\_\+tree.\+h$>$}
+
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classbinary__tree_adab9da6a78db35dba315ae9d10e0228f}{binary\+\_\+tree}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new binary tree object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classbinary__tree_a4ecca20eb4a81f1f5b046ded8b612f3b}{$\sim$binary\+\_\+tree}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the binary tree object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classbinary__tree_adc7a84ae535ba0755417176a09f45da7}{print}} () const noexcept
+\begin{DoxyCompactList}\small\item\em wypisuje drzewo w porządku in-\/order \end{DoxyCompactList}\item 
+T \mbox{\hyperlink{classbinary__tree_aa062061c8ae1e48d54330f304b9ad6af}{left}} (const T \&item) const
+\begin{DoxyCompactList}\small\item\em zwraca lewego syna ojca \end{DoxyCompactList}\item 
+T \mbox{\hyperlink{classbinary__tree_a17491a3f7bab2452127289a31f0e079a}{right}} (const T \&item) const
+\begin{DoxyCompactList}\small\item\em zwraca prawego syna ojca \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classbinary__tree_a0f2356021da7be9aad1d80be050af4f5}{delete\+\_\+item}} (const T \&item)
+\begin{DoxyCompactList}\small\item\em usuwa element \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classbinary__tree_a2dfd910ec7741dc425e26f7b8c5e853d}{clear}} ()
+\begin{DoxyCompactList}\small\item\em czyści całe drzewo z pamięci \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classbinary__tree_a7ba7cc0ff002d0f52e2e5f27f3f05e57}{insert}} (const T \&item)
+\begin{DoxyCompactList}\small\item\em wstawia wartość do drzewa \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\Hypertarget{classbinary__tree_adab9da6a78db35dba315ae9d10e0228f}\label{classbinary__tree_adab9da6a78db35dba315ae9d10e0228f}} 
+\index{binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}!binary\_tree@{binary\_tree}}
+\index{binary\_tree@{binary\_tree}!binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{binary\_tree()}{binary\_tree()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{classbinary__tree}{binary\+\_\+tree}}$<$ T $>$\+::\mbox{\hyperlink{classbinary__tree}{binary\+\_\+tree}}}
+
+
+
+Construct a new binary tree object. 
+
+\mbox{\Hypertarget{classbinary__tree_a4ecca20eb4a81f1f5b046ded8b612f3b}\label{classbinary__tree_a4ecca20eb4a81f1f5b046ded8b612f3b}} 
+\index{binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}!````~binary\_tree@{$\sim$binary\_tree}}
+\index{````~binary\_tree@{$\sim$binary\_tree}!binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{$\sim$binary\_tree()}{~binary\_tree()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{classbinary__tree}{binary\+\_\+tree}}$<$ T $>$\+::$\sim$\mbox{\hyperlink{classbinary__tree}{binary\+\_\+tree}}}
+
+
+
+Destroy the binary tree object. 
+
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{classbinary__tree_a2dfd910ec7741dc425e26f7b8c5e853d}\label{classbinary__tree_a2dfd910ec7741dc425e26f7b8c5e853d}} 
+\index{binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}!clear@{clear}}
+\index{clear@{clear}!binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{classbinary__tree}{binary\+\_\+tree}}$<$ T $>$\+::clear}
+
+
+
+czyści całe drzewo z pamięci 
+
+\mbox{\Hypertarget{classbinary__tree_a0f2356021da7be9aad1d80be050af4f5}\label{classbinary__tree_a0f2356021da7be9aad1d80be050af4f5}} 
+\index{binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}!delete\_item@{delete\_item}}
+\index{delete\_item@{delete\_item}!binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{delete\_item()}{delete\_item()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{classbinary__tree}{binary\+\_\+tree}}$<$ T $>$\+::delete\+\_\+item (\begin{DoxyParamCaption}\item[{const T \&}]{item }\end{DoxyParamCaption})}
+
+
+
+usuwa element 
+
+
+\begin{DoxyParams}{Parametry}
+{\em item} & element \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classbinary__tree_a7ba7cc0ff002d0f52e2e5f27f3f05e57}\label{classbinary__tree_a7ba7cc0ff002d0f52e2e5f27f3f05e57}} 
+\index{binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}!insert@{insert}}
+\index{insert@{insert}!binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{insert()}{insert()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{classbinary__tree}{binary\+\_\+tree}}$<$ T $>$\+::insert (\begin{DoxyParamCaption}\item[{const T \&}]{item }\end{DoxyParamCaption})}
+
+
+
+wstawia wartość do drzewa 
+
+
+\begin{DoxyParams}{Parametry}
+{\em item} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classbinary__tree_aa062061c8ae1e48d54330f304b9ad6af}\label{classbinary__tree_aa062061c8ae1e48d54330f304b9ad6af}} 
+\index{binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}!left@{left}}
+\index{left@{left}!binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{left()}{left()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+T \mbox{\hyperlink{classbinary__tree}{binary\+\_\+tree}}$<$ T $>$\+::left (\begin{DoxyParamCaption}\item[{const T \&}]{item }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+zwraca lewego syna ojca 
+
+
+\begin{DoxyParams}{Parametry}
+{\em item} & ojciec \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+T lewy syn ojca 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classbinary__tree_adc7a84ae535ba0755417176a09f45da7}\label{classbinary__tree_adc7a84ae535ba0755417176a09f45da7}} 
+\index{binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}!print@{print}}
+\index{print@{print}!binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{classbinary__tree}{binary\+\_\+tree}}$<$ T $>$\+::print\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+
+
+wypisuje drzewo w porządku in-\/order 
+
+\mbox{\Hypertarget{classbinary__tree_a17491a3f7bab2452127289a31f0e079a}\label{classbinary__tree_a17491a3f7bab2452127289a31f0e079a}} 
+\index{binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}!right@{right}}
+\index{right@{right}!binary\_tree$<$ T $>$@{binary\_tree$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{right()}{right()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+T \mbox{\hyperlink{classbinary__tree}{binary\+\_\+tree}}$<$ T $>$\+::right (\begin{DoxyParamCaption}\item[{const T \&}]{item }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+zwraca prawego syna ojca 
+
+
+\begin{DoxyParams}{Parametry}
+{\em item} & ojciec \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+T prawy syn ojca 
+\end{DoxyReturn}
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{binary__tree_8h}{binary\+\_\+tree.\+h}}\end{DoxyCompactItemize}

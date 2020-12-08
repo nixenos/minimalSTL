@@ -1,0 +1,9 @@
+<map id="container::add" name="container::add">
+<area shape="rect" id="node1" title="funkcja dodająca element na koniec kontenera" alt="" coords="208,132,323,159"/>
+<area shape="rect" id="node2" href="$classset.html#acb383e77696a8262fd597443d56a1759" title="funkcja dodająca element do kontenera" alt="" coords="39,5,126,32"/>
+<area shape="rect" id="node3" href="$classstack.html#a3b8d18e5c83429681a676d286dd0ab98" title="funkcja wstawiąjąca element na stos" alt="" coords="31,56,134,83"/>
+<area shape="rect" id="node4" href="$classpriority__queue.html#a745bdf3f36fc582610321c62d1b11491" title="wkłada element do kolejki" alt="" coords="5,107,160,133"/>
+<area shape="rect" id="node5" href="$classvector.html#ab34fde8523a945caca08743d955e7144" title="funkcja dodająca element na koniec vectora" alt="" coords="13,157,153,184"/>
+<area shape="rect" id="node6" href="$classqueue.html#aa17e0910cbc837b4258e08ae35e94c37" title="funkcja dodająca element na koniec vectora" alt="" coords="13,208,152,235"/>
+<area shape="rect" id="node7" href="$classvector.html#a3dd4122b88bed21db30ad64d4a4941a3" title="funkcja dodająca element na początek vectora" alt="" coords="13,259,153,285"/>
+</map>

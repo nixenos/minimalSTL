@@ -1,0 +1,88 @@
+\hypertarget{classqueue}{}\doxysection{Dokumentacja szablonu klasy queue$<$ T $>$}
+\label{classqueue}\index{queue$<$ T $>$@{queue$<$ T $>$}}
+
+
+{\ttfamily \#include $<$queue.\+h$>$}
+
+
+
+Diagram dziedziczenia dla queue$<$ T $>$
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=171pt]{classqueue__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagram współpracy dla queue$<$ T $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=171pt]{classqueue__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classqueue_aa17e0910cbc837b4258e08ae35e94c37}{push\+\_\+back}} (const T \&item)
+\begin{DoxyCompactList}\small\item\em funkcja dodająca element na koniec vectora \end{DoxyCompactList}\item 
+T \mbox{\hyperlink{classqueue_a123c22f4ace0cd712c297b0ee18de270}{pop\+\_\+front}} ()
+\begin{DoxyCompactList}\small\item\em funkcja usuwająca element na początku i zwracająca go \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Dodatkowe Dziedziczone Składowe}
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{classqueue_a123c22f4ace0cd712c297b0ee18de270}\label{classqueue_a123c22f4ace0cd712c297b0ee18de270}} 
+\index{queue$<$ T $>$@{queue$<$ T $>$}!pop\_front@{pop\_front}}
+\index{pop\_front@{pop\_front}!queue$<$ T $>$@{queue$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{pop\_front()}{pop\_front()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+T \mbox{\hyperlink{classqueue}{queue}}$<$ T $>$\+::pop\+\_\+front}
+
+
+
+funkcja usuwająca element na początku i zwracająca go 
+
+\begin{DoxyReturn}{Zwraca}
+T pierwszy element 
+\end{DoxyReturn}
+Oto graf wywołań dla tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{classqueue_a123c22f4ace0cd712c297b0ee18de270_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classqueue_aa17e0910cbc837b4258e08ae35e94c37}\label{classqueue_aa17e0910cbc837b4258e08ae35e94c37}} 
+\index{queue$<$ T $>$@{queue$<$ T $>$}!push\_back@{push\_back}}
+\index{push\_back@{push\_back}!queue$<$ T $>$@{queue$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{push\_back()}{push\_back()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{classqueue}{queue}}$<$ T $>$\+::push\+\_\+back (\begin{DoxyParamCaption}\item[{const T \&}]{item }\end{DoxyParamCaption})}
+
+
+
+funkcja dodająca element na koniec vectora 
+
+
+\begin{DoxyParams}{Parametry}
+{\em item} & referencja na dodawany element, poźniej tworzona jest kopia, więc tutaj warto przekazać referencję \\
+\hline
+\end{DoxyParams}
+Oto graf wywołań dla tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=306pt]{classqueue_aa17e0910cbc837b4258e08ae35e94c37_cgraph}
+\end{center}
+\end{figure}
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{queue_8h}{queue.\+h}}\end{DoxyCompactItemize}

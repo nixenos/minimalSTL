@@ -1,0 +1,122 @@
+\hypertarget{classset}{}\doxysection{Dokumentacja szablonu klasy set$<$ T $>$}
+\label{classset}\index{set$<$ T $>$@{set$<$ T $>$}}
+
+
+{\ttfamily \#include $<$set.\+h$>$}
+
+
+
+Diagram dziedziczenia dla set$<$ T $>$
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=171pt]{classset__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagram współpracy dla set$<$ T $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=171pt]{classset__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classset_acb383e77696a8262fd597443d56a1759}{insert}} (const T \&item)
+\begin{DoxyCompactList}\small\item\em funkcja dodająca element do kontenera \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classset_acdfca24a97641e82e9ae06033babb46d}{lower\+\_\+bound}} (const T \&item) const noexcept
+\begin{DoxyCompactList}\small\item\em funkcja zwracająca indeks pierwszego nie mniejszego niż podany elementu \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classset_a959681dcce1ec1af758f5439ffc50ec8}{upper\+\_\+bound}} (const T \&item) const noexcept
+\begin{DoxyCompactList}\small\item\em funkcja zwracająca indeks pierwszego nie większego niż podany elementu \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Dodatkowe Dziedziczone Składowe}
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{classset_acb383e77696a8262fd597443d56a1759}\label{classset_acb383e77696a8262fd597443d56a1759}} 
+\index{set$<$ T $>$@{set$<$ T $>$}!insert@{insert}}
+\index{insert@{insert}!set$<$ T $>$@{set$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{insert()}{insert()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{classset}{set}}$<$ T $>$\+::insert (\begin{DoxyParamCaption}\item[{const T \&}]{item }\end{DoxyParamCaption})}
+
+
+
+funkcja dodająca element do kontenera 
+
+
+\begin{DoxyParams}{Parametry}
+{\em item} & element do dodania \\
+\hline
+\end{DoxyParams}
+Oto graf wywołań dla tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=267pt]{classset_acb383e77696a8262fd597443d56a1759_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classset_acdfca24a97641e82e9ae06033babb46d}\label{classset_acdfca24a97641e82e9ae06033babb46d}} 
+\index{set$<$ T $>$@{set$<$ T $>$}!lower\_bound@{lower\_bound}}
+\index{lower\_bound@{lower\_bound}!set$<$ T $>$@{set$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{lower\_bound()}{lower\_bound()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+int \mbox{\hyperlink{classset}{set}}$<$ T $>$\+::lower\+\_\+bound (\begin{DoxyParamCaption}\item[{const T \&}]{item }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+
+
+funkcja zwracająca indeks pierwszego nie mniejszego niż podany elementu 
+
+
+\begin{DoxyParams}{Parametry}
+{\em item} & element do sprawdzenia \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+int indeks znalezionego elementu, -\/1 jeżeli nie znaleziono elementu 
+\end{DoxyReturn}
+Oto graf wywołań dla tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=319pt]{classset_acdfca24a97641e82e9ae06033babb46d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classset_a959681dcce1ec1af758f5439ffc50ec8}\label{classset_a959681dcce1ec1af758f5439ffc50ec8}} 
+\index{set$<$ T $>$@{set$<$ T $>$}!upper\_bound@{upper\_bound}}
+\index{upper\_bound@{upper\_bound}!set$<$ T $>$@{set$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{upper\_bound()}{upper\_bound()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+int \mbox{\hyperlink{classset}{set}}$<$ T $>$\+::upper\+\_\+bound (\begin{DoxyParamCaption}\item[{const T \&}]{item }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+
+
+funkcja zwracająca indeks pierwszego nie większego niż podany elementu 
+
+
+\begin{DoxyParams}{Parametry}
+{\em item} & element do sprawdzenia \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+int indeks znalezionego elementu, -\/1 jeżeli nie znaleziono elementu 
+\end{DoxyReturn}
+Oto graf wywołań dla tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=320pt]{classset_a959681dcce1ec1af758f5439ffc50ec8_cgraph}
+\end{center}
+\end{figure}
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{set_8h}{set.\+h}}\end{DoxyCompactItemize}

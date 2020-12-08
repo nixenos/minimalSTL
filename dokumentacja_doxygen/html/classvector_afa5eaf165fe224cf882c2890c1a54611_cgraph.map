@@ -1,0 +1,5 @@
+<map id="vector::swap" name="vector::swap">
+<area shape="rect" id="node1" title="funkcja zamieniająca miejscami dwa elementy" alt="" coords="5,31,111,57"/>
+<area shape="rect" id="node2" href="$classcontainer.html#ab3652141432751472105f45b95e7cf97" title="funkcja pobierająca element z podanego indeksu" alt="" coords="167,5,279,32"/>
+<area shape="rect" id="node3" href="$classcontainer.html#a8b39cab5881815602f10136f898a1de4" title="funkcja wstawiająca element na daną pozycję" alt="" coords="159,56,287,83"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="stack::pop" name="stack::pop">
+<area shape="rect" id="node1" title="funkcja zwracająca element z góry stosu" alt="" coords="5,31,95,57"/>
+<area shape="rect" id="node2" href="$classcontainer.html#a4ee6490c3702c182be461a9990890530" title="funkcja usuwająca element na podanym indeksie" alt="" coords="143,5,312,32"/>
+<area shape="rect" id="node3" href="$classcontainer.html#ab3652141432751472105f45b95e7cf97" title="funkcja pobierająca element z podanego indeksu" alt="" coords="171,56,283,83"/>
+</map>

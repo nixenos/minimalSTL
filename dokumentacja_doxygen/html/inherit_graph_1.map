@@ -1,8 +1,0 @@
-<map id="Graficzna hierarchia klas" name="Graficzna hierarchia klas">
-<area shape="rect" id="node1" href="$classcontainer.html" title="bazowa klasa zarządzająca pamięcią, implementująca podstawowe funkcjonalności itd." alt="" coords="5,107,127,133"/>
-<area shape="rect" id="node2" href="$classpriority__queue.html" title=" " alt="" coords="175,5,329,32"/>
-<area shape="rect" id="node3" href="$classqueue.html" title=" " alt="" coords="202,56,302,83"/>
-<area shape="rect" id="node4" href="$classset.html" title=" " alt="" coords="212,107,292,133"/>
-<area shape="rect" id="node5" href="$classstack.html" title=" " alt="" coords="205,157,299,184"/>
-<area shape="rect" id="node6" href="$classvector.html" title=" " alt="" coords="201,208,303,235"/>
-</map>

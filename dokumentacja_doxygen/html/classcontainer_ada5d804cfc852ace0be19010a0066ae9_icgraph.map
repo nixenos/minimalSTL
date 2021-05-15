@@ -1,6 +1,0 @@
-<map id="container::size_of" name="container::size_of">
-<area shape="rect" id="node1" title="funkcja zwracająca wielkość kontenera" alt="" coords="201,56,339,83"/>
-<area shape="rect" id="node2" href="$classset.html#acdfca24a97641e82e9ae06033babb46d" title="funkcja zwracająca indeks pierwszego nie mniejszego niż podany elementu" alt="" coords="13,5,146,32"/>
-<area shape="rect" id="node3" href="$classpriority__queue.html#a8fd4e870275678e010a0a479a2d47e32" title="ściąga element z kolejki i zwraca ten element." alt="" coords="5,56,153,83"/>
-<area shape="rect" id="node4" href="$classset.html#a959681dcce1ec1af758f5439ffc50ec8" title="funkcja zwracająca indeks pierwszego nie większego niż podany elementu" alt="" coords="12,107,147,133"/>
-</map>
